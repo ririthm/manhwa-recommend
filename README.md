@@ -28,7 +28,7 @@ Chatbot ini tersedia dalam dua bentuk:
 1. Buka [console.groq.com](https://console.groq.com) dan login (bisa pakai akun Google).
 2. Di sidebar, buka menu **API Keys**.
 3. Klik **Create API Key**, beri nama bebas (misal `tugas-1`), lalu buat.
-4. **Copy key-nya sekarang juga**. Key (diawali `gsk_...`) hanya ditampilkan sekali.
+4. **Copy key-nya**. Key (diawali `gsk_...`) hanya ditampilkan sekali.
 5. Simpan key tersebut dan jangan dibagikan ke publik.
 
 ---
