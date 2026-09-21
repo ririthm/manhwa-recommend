@@ -74,6 +74,7 @@ Semua kontrol, pengaturan parameter, dan manajemen riwayat obrolan dapat diakses
 
 ---
 
+```
 ## 5. Contoh Cuplikan Percakapan
 
 ```
@@ -81,8 +82,6 @@ Semua kontrol, pengaturan parameter, dan manajemen riwayat obrolan dapat diakses
 ---
 
 ## 6. Struktur Kode
-
-```
 recommendation_manhwa/
 ├── .env
 ├── .gitignore
