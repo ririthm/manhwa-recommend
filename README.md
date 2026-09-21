@@ -34,8 +34,8 @@ Chatbot ini tersedia dalam dua bentuk:
 
 ### Langkah 1 — Clone / download project ini
 ```bash
-git clone <link-repo-kamu>
-cd chatbot-manhwa
+git clone https://github.com/ririthm/manhwa-recommend.git
+cd recommendation_manhwa
 ```
 
 ### Langkah 2 — Install dependencies
@@ -84,7 +84,6 @@ Semua kontrol, pengaturan parameter, dan manajemen riwayat obrolan dapat diakses
 
 ```
 recommendation_manhwa/
-|
 ├── .env
 ├── .gitignore
 ├── chatbot_console.py
@@ -96,50 +95,49 @@ recommendation_manhwa/
 └── __pycache__/
     └── chatbot_console.cpython-310.pyc
 ```
-
----
+```
 
 ## file `.env`
 
 Tempat menyimpan kunci rahasia `GROQ_API_KEY` dalam format *key-value*. File ini diproses oleh library `python-dotenv` agar API Key tidak ditulis langsung secara terbuka di dalam kode Python.
 
----
+```
 
 ## file `.gitignore`
 
 Panduan untuk Git agar mengabaikan berkas sensitif atau berkas sampah yang tidak perlu diunggah ke repositori GitHub.
 
----
+```
 
 ## file `requirements.txt`
 
 Daftar dependensi pustaka luar yang dibutuhkan lingkungan Python agar aplikasi bisa berjalan tanpa error.
 
----
+```
 
 ## file `README.md`
 
 Berkas dokumentasi lengkap berisi latar belakang proyek, petunjuk instalasi *step-by-step*, penjelasan fitur, panduan perintah, serta tautan aset pendukung.
 
----
+```
 
 ## riwayat_chat_xxxxx_xxxxx.json
 
 Berkas rekaman obrolan yang diekspor oleh sistem. Berisi *array of objects* dengan struktur `{"role": "...", "content": "..."}` yang mencatat interaksi antara pengguna dan AI.
 
----
+```
 
 ## file `image.png`
 
 Berkas tangkapan layar (*screenshot*) tampilan aplikasi yang disematkan ke dalam `README.md` sebagai pratinjau visual.
 
----
+```
 
 ## file `__pycache__/`
 
 Folder sistem internal Python. Otomatis dibuat saat `streamlit_app.py` mengeksekusi instruksi `from chatbot_console import SYSTEM_PROMPT` untuk menyimpan *bytecode* terkompilasi (`.pyc`) agar pemanggilan berikutnya lebih cepat.
 
----
+```
 
 ## 7. Catatan Penggunaan AI
 
