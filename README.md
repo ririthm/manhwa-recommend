@@ -75,13 +75,15 @@ Semua kontrol, pengaturan parameter, dan manajemen riwayat obrolan dapat diakses
 ---
 
 ```
+```
 ## 5. Contoh Cuplikan Percakapan
-
+```
 ```
 ![Contoh percakapan dengan ChatBot rekomendasi manhwa](image.png)
 ---
-
+```
 ## 6. Struktur Kode
+```
 recommendation_manhwa/
 ├── .env
 ├── .gitignore
