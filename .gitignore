@@ -1,0 +1,14 @@
+# API key & secrets
+.env
+
+# Riwayat chat hasil testing (opsional, bisa dihapus baris ini kalau mau ikut di-commit)
+riwayat_chat_*.json
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Streamlit
+.streamlit/
